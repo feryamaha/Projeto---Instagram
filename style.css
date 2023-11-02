@@ -1,0 +1,283 @@
+html {
+    font-size: 70%;
+}
+
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+
+
+p {
+    margin-left: 10vh;
+    font-family: 'Arial black';
+    color: #385185;
+    font-size: 1.6em;
+    padding-top: 37vh;
+    position: absolute;
+}
+
+a {
+    margin-left: 10vh;
+    font-family: 'Times New Roman';
+    font-size: 1.6em;
+    line-height: -1rem;
+    padding-top: 42vh;
+    position: absolute;
+}
+
+
+
+.imagens {
+    /*grupo de imagens celulares*/
+    position: relative;
+    top: 5vh;
+}
+
+.img-celular {
+    width: 450px;
+}
+
+.img-insta {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 28px;
+    border-radius: 20px;
+    transition: 2s ease-in-out;
+}
+
+.container {
+    /*container informações de login*/
+    border: 0.2rem solid #d3d3d3;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    height: 40vh;
+    padding: 50px;
+}
+
+input {
+    /*campos para digitar as credenciais*/
+    height: 36px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+button {
+    /*botão enviar*/
+    background: #0095f6;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.facebook {
+    /*login com facebook*/
+    color: #385185;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -10vh;
+    margin-left: 0vh;
+    position: absolute;
+
+}
+
+.esqueceu {
+    /*esqueceu a senha*/
+    color: #385185;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: -7vh;
+    margin-left: 0vh;
+    font-family: sans-serif;
+    position: absolute;
+    align-items: center;
+}
+
+@media (max-width: 840px) {
+
+    .imagens {
+        transform: scale(0.8);
+        left: 30vh;
+
+    }
+
+    .container {
+        transform: scale(0.8);
+        margin-left: 17vh;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        max-width: 50%;
+    }
+
+    a {
+        font-size: 1.6em;
+    }
+
+    p {
+        content: center;
+        font-size: 1.6em;
+        margin-top: 5vh;
+        margin-left: 50vh;
+        position: absolute;
+    }
+
+    a {
+        width: 100%;
+        font-size: 1.6em;
+        line-height: -1rem;
+        margin-top: 4vh;
+        margin-left: 50vh;
+        position: absolute;
+        max-width: 70%;
+
+    }
+}
+
+@media (max-width: 600px) {
+
+    .imagens {
+        transform: scale(0.6);
+        left: 20vh;
+
+    }
+
+    .container {
+        transform: scale(0.7);
+        margin-left: 3vh;
+        margin-top: 5vh;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        max-width: 50%;
+    }
+
+    a {
+        font-size: 5em;
+    }
+
+    p {
+        content: center;
+        font-size: 1.6em;
+        margin-top: 5vh;
+        margin-left: 50vh;
+        position: absolute;
+    }
+
+    a {
+        width: 100%;
+        font-size: 1.6em;
+        line-height: -1rem;
+        margin-top: 4vh;
+        margin-left: 50vh;
+        position: absolute;
+        max-width: 70%;
+
+    }
+}
+
+@media (max-width: 500px) {
+
+    .imagens {
+        transform: scale(0.6);
+        margin-top: -20vh;
+        margin-left: -20vh;
+    }
+
+    .container {
+        transform: scale(0.7);
+        margin-top: -20vh;
+        margin-left: 5vh;
+    }
+
+    body {
+        display: block;
+        justify-content: center;
+        max-width: 50%;
+    }
+
+    a {
+        font-size: 5em;
+    }
+
+    p {
+        content: center;
+        font-size: 1.4em;
+        margin-top: 65vh;
+        margin-left: 10vh;
+        position: absolute;
+    }
+
+    a {
+        width: 100%;
+        font-size: 1.4em;
+        line-height: -1rem;
+        margin-top: 65vh;
+        margin-left: 10vh;
+        position: absolute;
+        max-width: 70%;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .imagens {
+        transform: scale(0.5);
+        margin-top: -23vh;
+        margin-left: -25vh;
+    }
+
+    .container {
+        transform: scale(0.7);
+        margin-top: -23vh;
+        margin-left: -4vh;
+    }
+
+    body {
+        display: block;
+        justify-content: center;
+        max-width: 50%;
+    }
+
+    a {
+        font-size: 5em;
+    }
+
+    p {
+        content: center;
+        font-size: 1.4em;
+        margin-top: 62vh;
+        margin-left: 5vh;
+        position: absolute;
+    }
+
+    a {
+        width: 100%;
+        font-size: 1.4em;
+        line-height: -1rem;
+        margin-top: 60vh;
+        margin-left: 5vh;
+        position: absolute;
+        max-width: 70%;
+    }
+}
